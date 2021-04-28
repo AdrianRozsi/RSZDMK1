@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 
 
 void PrintResult(int res)
@@ -7,11 +8,14 @@ printf("Result: %d\n", res);
 }
 
 int Calculation(int 3, int 8)
+=======
+int Calculation(int a, int b)
+>>>>>>> branch1
 {
 if(a > b)
 return a - b;
 else
-return b - a;
+return b + a;
 }
 int main()
 {
