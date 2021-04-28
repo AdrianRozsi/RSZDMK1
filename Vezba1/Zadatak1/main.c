@@ -1,4 +1,11 @@
 #include <stdio.h>
+
+
+void PrintResult(int res)
+{
+printf("Result: %d\n", res);
+}
+
 int Calculation(int 3, int 8)
 {
 if(a > b)
