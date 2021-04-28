@@ -1,10 +1,10 @@
 #include <stdio.h>
-int Calculation(int 3, int 8)
+int Calculation(int a, int b)
 {
 if(a > b)
 return a - b;
 else
-return b - a;
+return b + a;
 }
 int main()
 {
